@@ -21,6 +21,8 @@ I got into computer vision through crowd counting. Our models struggled with peo
 Sadam Al-Azani, **Safwan Nabeel**, Qasim Al Mahfood, Mohanad Mohamed<br>
 *CVPR Workshops 2026*
 
+<a href="https://github.com/sazani/TWASEL-SignLang"><img src="assets/twasel-streams.svg" width="100%" alt="TWASEL architecture: separate body, left-hand, right-hand, and face streams feed learned fusion, a Conformer, and gloss decoding. Conceptual illustration."></a>
+
 Recognizing sign language from body, hand, and facial movement. The model learns which signals to use over time and reached 16.62% word error rate on the SignEval test set.
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-387E73?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Al-Azani_TWASEL_at_SignEval_2026_Adaptive_Multi-Stream_Pose_Fusion_for_Continuous_CVPRW_2026_paper.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-244D60?style=flat-square&logo=github)](https://github.com/sazani/TWASEL-SignLang)
@@ -28,6 +30,8 @@ Recognizing sign language from body, hand, and facial movement. The model learns
 **Are Crowd Counts Reliable? Post-Hoc Reliability Assessment for Crowd Counting Under Dataset Shift**<br>
 **Safwan Nabeel**, Sadam Al-Azani, Muhammad Shahid Jabbar<br>
 *Under review at IJCV*
+
+<img src="assets/crowd-reliability.svg" width="100%" alt="Conceptual illustration: crowd images are ranked by predicted error risk, but calibration can break on a new dataset. The illustrated bars and curve are not measured results.">
 
 Can a crowd-counting model tell which predictions are likely to be wrong? We estimate error risk without retraining the model, then test how well those estimates hold up on a different dataset.
 
@@ -41,8 +45,22 @@ A benchmark for residual identity leakage in privacy-preserving action recogniti
 
 ## 🧰 Projects
 
-- **[CrowdSense](https://github.com/safwanx/CrowdSense)**: upload an image to get a crowd count and density heatmap, served through FastAPI.
-- **Video-to-text summarization**: YOLO selects frames, Florence-2 describes them, and Command R+ turns them into rolling one-minute summaries. Supports live and recorded video.
+### CrowdSense
+
+One scene, three views: the crowd, the predicted density, and the two together.
+
+<a href="https://github.com/safwanx/CrowdSense">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/crowdsense-demo.png">
+    <img src="assets/crowdsense-demo.gif" width="100%" alt="Synchronized CrowdSense demo: overhead crowd footage beside its predicted density map and heatmap overlay.">
+  </picture>
+</a>
+
+An excerpt from my existing demo outputs. The FastAPI app accepts an image and returns an estimated count and density overlay.
+
+[![Code](https://img.shields.io/badge/Code-GitHub-244D60?style=flat-square&logo=github)](https://github.com/safwanx/CrowdSense) · [Still frame](assets/crowdsense-demo.png)
+
+**Video-to-text summarization**: YOLO selects frames, Florence-2 describes them, and Command R+ turns them into rolling one-minute summaries. Supports live and recorded video.
 
 ## 🛠️ Tools I use
 
