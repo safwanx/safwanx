@@ -10,8 +10,9 @@
 
 ## 👋 A little about me
 
-I got into computer vision through crowd counting. Our models struggled with people wearing shemaghs and hijabs, which made me think more about who was missing from the training data. Since then, I've been interested in understanding when models fail and whether we can spot unreliable predictions.
+I work on trustworthy multimodal AI: models that combine images, video, and other signals, and what happens to them once they leave the benchmark. I came to this through computer vision, after watching a model I had trained fail on people who were missing from its training data. The questions I keep returning to are when a prediction stops being reliable under distribution shift, what private information survives anonymization, and how far vision-language models can be trusted in healthcare and industrial settings.
 
+🔍 **Research interests:** trustworthy and privacy-preserving ML, multimodal and vision-language models, reliability under distribution shift, and reliable AI for healthcare and industry.<br>
 💻 I work as an **ML engineer** and mentor student research at **KAUST Academy**.<br>
 🥏 Outside work: frisbee, photography, hiking, and board games.
 
