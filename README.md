@@ -21,9 +21,9 @@ I got into computer vision through crowd counting. Our models struggled with peo
 Sadam Al-Azani, **Safwan Nabeel**, Qasim Al Mahfood, Mohanad Mohamed<br>
 *CVPR Workshops 2026*
 
-<a href="https://github.com/sazani/TWASEL-SignLang"><img src="assets/twasel-results.png" width="100%" alt="Reported TWASEL results: on the development set, the final model achieved 20.42% word error rate with CTC greedy decoding and 11.85% with autoregressive beam search. The held-out test result was 16.62%."></a>
+<a href="https://github.com/sazani/TWASEL-SignLang"><img src="assets/twasel-streams.svg" width="100%" alt="TWASEL architecture: separate body, left-hand, right-hand, and face streams feed learned fusion, a Conformer, and gloss decoding. Conceptual illustration."></a>
 
-Recognizing sign language from body, hand, and facial movement. One result that stood out: changing the decoding method made a large difference, even with the same trained model.
+Recognizing sign language from body, hand, and facial movement. The model learns which signals to use over time and reached 16.62% word error rate on the SignEval test set.
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-387E73?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Al-Azani_TWASEL_at_SignEval_2026_Adaptive_Multi-Stream_Pose_Fusion_for_Continuous_CVPRW_2026_paper.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-244D60?style=flat-square&logo=github)](https://github.com/sazani/TWASEL-SignLang)
 
