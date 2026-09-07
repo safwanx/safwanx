@@ -1,9 +1,12 @@
-<img src="profile-coast.svg" width="100%" alt="Safwan Nabeel. Machine learning and computer vision. A frisbee floats over a moonlit coast.">
+<picture>
+  <source media="(max-width: 640px)" srcset="profile-coast-narrow.svg">
+  <img src="profile-coast.svg" width="100%" alt="Safwan Nabeel. Machine learning and computer vision. A frisbee floats over a moonlit coast.">
+</picture>
 
 <p align="center">
   <a href="https://safwanx.github.io"><img src="https://img.shields.io/badge/Website-244D60?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Website"></a>
   <a href="https://scholar.google.com/citations?user=Bl3jULcAAAAJ&amp;hl=en"><img src="https://img.shields.io/badge/Google_Scholar-386E83?style=for-the-badge&amp;logo=googlescholar&amp;logoColor=white" alt="Google Scholar"></a>
-  <a href="https://www.linkedin.com/in/safwan-nabeel-a499581b9/"><img src="https://img.shields.io/badge/LinkedIn-365D79?style=for-the-badge" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/safwan-nabeel-a499581b9/"><img src="https://img.shields.io/badge/LinkedIn-365D79?style=for-the-badge&amp;logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMgOWgzLjZ2MTJIM3pNNC44IDMuMmEyLjEgMi4xIDAgMSAxIDAgNC4yIDIuMSAyLjEgMCAwIDEgMC00LjJ6TTkuNCA5aDMuNHYxLjdjLjUtLjkgMS43LTIgMy42LTIgMy44IDAgNC41IDIuNSA0LjUgNS43VjIxaC0zLjZ2LTUuOGMwLTEuNCAwLTMuMi0yLTMuMnMtMi4zIDEuNS0yLjMgMy4xVjIxSDkuNHoiLz48L3N2Zz4=" alt="LinkedIn"></a>
   <a href="mailto:safwanxnabeel@outlook.com"><img src="https://img.shields.io/badge/Email-387E73?style=for-the-badge&amp;logo=maildotru&amp;logoColor=white" alt="Email"></a>
   <a href="https://safwanx.github.io/assets/Safwan_CV.pdf"><img src="https://img.shields.io/badge/CV-PDF-526F73?style=for-the-badge&amp;logo=readdotcv&amp;logoColor=white" alt="CV PDF"></a>
 </p>
@@ -32,7 +35,10 @@ Recognizing sign language from body, hand, and facial movement. The model learns
 **Safwan Nabeel**, Sadam Al-Azani, Muhammad Shahid Jabbar<br>
 *Under review at IJCV*
 
-<img src="assets/crowd-snow-case.png" width="100%" alt="Real JHU-CROWD++ snowy stadium example with 8,994 annotated people. STEERER predicted 1,375.1, at the 96.9th risk percentile. MPCount transferred from QNRF predicted 134.1, at the 4.4th risk percentile within its evaluation setting. Both undercounted severely, but the transferred model's risk estimate did not flag the failure.">
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/crowd-snow-case-narrow.png">
+  <img src="assets/crowd-snow-case.png" width="100%" alt="Real JHU-CROWD++ snowy stadium example with 8,994 annotated people. STEERER predicted 1,375.1, at the 96.9th risk percentile. MPCount transferred from QNRF predicted 134.1, at the 4.4th risk percentile within its evaluation setting. Both undercounted severely, but the transferred model's risk estimate did not flag the failure.">
+</picture>
 
 In this snowy stadium, both counters missed most of the crowd, but the risk estimate for the transferred MPCount model ranked its prediction as low risk. A low risk score did not mean a small error.
 

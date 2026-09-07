@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Safwan Nabeel, somewhere between experiments and a game of ultimate</title>
+  <desc id="description">An illustrated night on the coast. A pale frisbee floats above teal water, distant mountains, and a small moon. Safwan Nabeel, machine learning and computer vision.</desc>
+  <defs>
+    <clipPath id="frame"><rect width="1200" height="360" rx="22"/></clipPath>
+    <mask id="crescent"><rect width="1200" height="360" fill="white"/><circle cx="1045" cy="67" r="29" fill="black"/></mask>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#162c41"/><stop offset="1" stop-color="#304f60"/></linearGradient>
+    <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#397980"/><stop offset="1" stop-color="#204c60"/></linearGradient>
+    <linearGradient id="disc" x2="0" y2="1"><stop stop-color="#f1f0d8"/><stop offset="1" stop-color="#b4d6c7"/></linearGradient>
+  </defs>
+  <style>
+    .disc-flight { animation: drift 7s cubic-bezier(.37,0,.63,1) infinite; }
+    @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(30px,-12px); } }
+    @media (prefers-reduced-motion: reduce) { .disc-flight { animation: none; } }
+    text { font-family: 'Atkinson Hyperlegible Next', 'Segoe UI', sans-serif; }
+  </style>
+  <g clip-path="url(#frame)">
+    <path fill="url(#sky)" d="M0 0h1200v360H0z"/>
+    <!-- A sparse sky, leaving room for the name. -->
+    <g fill="#c6dfd6">
+      <circle cx="666" cy="46" r="1.7"/><circle cx="765" cy="85" r="1"/><circle cx="908" cy="36" r="1.3"/>
+      <circle cx="1151" cy="126" r="1.5"/><circle cx="1110" cy="47" r="1"/><circle cx="703" cy="153" r="1"/>
+      <circle cx="602" cy="69" r="1"/><circle cx="862" cy="129" r="1.2"/>
+    </g>
+    <circle cx="1032" cy="76" r="31" fill="#e0e8cb" mask="url(#crescent)"/>
+    <!-- Mountain silhouettes taper into the water. -->
+    <path d="M470 276 668 178 716 206 824 145 934 222 1008 180 1105 222 1200 162V360H470Z" fill="#335667"/>
+    <path d="m716 206 108-61-46 63 33-10 64 38Z" fill="#486c77"/>
+    <path d="M570 257 734 222 864 246 1007 206 1114 247 1200 225V360H570Z" fill="#254b5c"/>
+    <path d="M0 277Q282 268 503 270T1200 254V360H0Z" fill="url(#sea)"/>
+    <g fill="none" stroke="#89b9b1" stroke-linecap="round" opacity=".38">
+      <path d="M693 279h90m91-8h61m48 10h124m-440 21h66m87-7h146m58 15h118"/>
+      <path d="M481 287h75m155 39h117m62-6h75m-411-9h66m477 23h87"/>
+    </g>
+    <path d="M0 311Q164 286 299 310T579 343Q644 354 707 360H0Z" fill="#173946"/>
+    <path d="M0 328Q139 304 274 328T525 360H0Z" fill="#102d3a"/>
+    <!-- Curved wake and a floating disc, kept clear of the lettering. -->
+    <path d="M701 232Q787 159 1075 161" fill="none" stroke="#9ac9bc" stroke-width="1.5" stroke-dasharray="2 9" opacity=".6"/>
+    <g class="disc-flight">
+      <g transform="translate(968 168) rotate(-13)">
+        <path d="M-111 4h43m-65 8h52" fill="none" stroke="#aad6c8" stroke-linecap="round" opacity=".45"/>
+        <ellipse cy="7" rx="60" ry="15" fill="#70a899"/>
+        <ellipse rx="60" ry="15" fill="url(#disc)"/>
+        <ellipse cy="-1" rx="48" ry="10" fill="none" stroke="#649b8d" stroke-width="1.4"/>
+        <ellipse cy="-1" rx="32" ry="6.5" fill="none" stroke="#649b8d" opacity=".7"/>
+        <path d="m-6-2 6-3 6 3-6 3Z" fill="#508878"/>
+      </g>
+    </g>
+    <text x="64" y="79" font-size="17" fill="#a9cfc6">Hello, I'm</text>
+    <text x="60" y="151" font-size="66" font-weight="700" letter-spacing="-2.6" fill="#edf2e6">Safwan Nabeel.</text>
+    <text x="64" y="194" font-size="23" fill="#b8d5d0">Machine learning &amp; computer vision</text>
+    <text x="64" y="244" font-size="16" fill="#abc5c4">Usually running an experiment. Sometimes chasing a disc.</text>
+  </g>
+</svg>
