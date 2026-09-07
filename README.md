@@ -23,7 +23,7 @@ I build and study trustworthy multimodal AI: models that combine images, video, 
 
 - 💼 Junior ML Engineer at **BestCircle AI**, Dhahran. Predictive maintenance, anomaly detection, and OCR-driven document review for industrial clients
 - 🎓 Teaching Assistant with **KAUST Academy**, mentoring SRSI student research from problem formulation to write-up
-- 📄 Published at **CVPR Workshops 2026**, with two more papers under review at ACCV and IJCV
+- 📄 Published at **CVPR Workshops 2026**, with another paper under review at IJCV
 - 🔭 Working toward reliable and privacy-aware multimodal systems for healthcare and industry
 - 🥏 Away from the screen: Ultimate Frisbee, photography, hiking, board games
 
@@ -38,9 +38,11 @@ Dedicated body, hand, and face encoders, adaptive gating that decides how much e
 **Safwan Nabeel**, Sadam Al-Azani, Muhammad Jabbar · *Under review, IJCV*<br>
 A post-hoc framework that predicts per-image error risk for frozen crowd counters. Keeping the 80% of images ranked most reliable cuts mean absolute error by 19 to 68% across seven shift settings.
 
+<!-- Hidden until the ACCV decision. Restore by removing the comment markers.
 **Privacy and identity leakage in anonymized video**<br>
 *Under review, ACCV 2026*<br>
 A benchmark for residual identity leakage in privacy-preserving action recognition, attacked through face, body appearance, pose, gait, and learned features. Blurring a face is not the same as hiding a person.
+-->
 
 ## 🧰 Featured work
 
