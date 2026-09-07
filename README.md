@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:9c3f2a,100:1e1611&height=210&section=header&text=Safwan%20Nabeel&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Machine%20learning%20researcher%20and%20engineer&descSize=18&descAlignY=60" width="100%" alt="Safwan Nabeel">
+<img src="banner.svg" width="100%" alt="Safwan Nabeel. Machine learning researcher and engineer. A frisbee glides across the banner.">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Atkinson+Hyperlegible&size=19&pause=1400&color=E4896A&center=true&vCenter=true&width=680&height=42&lines=Trustworthy+multimodal+AI;Visual+privacy+and+identity+leakage;Reliability+under+distribution+shift;Computer+vision+for+healthcare+and+industry">
