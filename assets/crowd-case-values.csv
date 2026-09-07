@@ -1,0 +1,3 @@
+image_id,dataset,split,model,gt_count,pred_count,abs_error,predicted_risk,risk_percentile
+0814,jhu,test,steerer_jhu,8994.0,1375.10400390625,7618.89599609375,99.38442142191275,0.96875
+0814,jhu,test,mpcount_qnrf_on_jhu,8994.0,134.136796875,8859.863203125,10.918980386727121,0.04375

@@ -21,9 +21,9 @@ I got into computer vision through crowd counting. Our models struggled with peo
 Sadam Al-Azani, **Safwan Nabeel**, Qasim Al Mahfood, Mohanad Mohamed<br>
 *CVPR Workshops 2026*
 
-<a href="https://github.com/sazani/TWASEL-SignLang"><img src="assets/twasel-streams.svg" width="100%" alt="TWASEL architecture: separate body, left-hand, right-hand, and face streams feed learned fusion, a Conformer, and gloss decoding. Conceptual illustration."></a>
+<a href="https://github.com/sazani/TWASEL-SignLang"><img src="assets/twasel-results.png" width="100%" alt="Reported TWASEL results: on the development set, the final model achieved 20.42% word error rate with CTC greedy decoding and 11.85% with autoregressive beam search. The held-out test result was 16.62%."></a>
 
-Recognizing sign language from body, hand, and facial movement. The model learns which signals to use over time and reached 16.62% word error rate on the SignEval test set.
+Recognizing sign language from body, hand, and facial movement. One result that stood out: changing the decoding method made a large difference, even with the same trained model.
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-387E73?style=flat-square)](https://openaccess.thecvf.com/content/CVPR2026W/MSLR/papers/Al-Azani_TWASEL_at_SignEval_2026_Adaptive_Multi-Stream_Pose_Fusion_for_Continuous_CVPRW_2026_paper.pdf) [![Code](https://img.shields.io/badge/Code-GitHub-244D60?style=flat-square&logo=github)](https://github.com/sazani/TWASEL-SignLang)
 
@@ -31,9 +31,11 @@ Recognizing sign language from body, hand, and facial movement. The model learns
 **Safwan Nabeel**, Sadam Al-Azani, Muhammad Shahid Jabbar<br>
 *Under review at IJCV*
 
-<img src="assets/crowd-reliability.svg" width="100%" alt="Conceptual illustration: crowd images are ranked by predicted error risk, but calibration can break on a new dataset. The illustrated bars and curve are not measured results.">
+<img src="assets/crowd-snow-case.png" width="100%" alt="Real JHU-CROWD++ snowy stadium example with 8,994 annotated people. STEERER predicted 1,375.1, at the 96.9th risk percentile. MPCount transferred from QNRF predicted 134.1, at the 4.4th risk percentile within its evaluation setting. Both undercounted severely, but the transferred model's risk estimate did not flag the failure.">
 
-Can a crowd-counting model tell which predictions are likely to be wrong? We estimate error risk without retraining the model, then test how well those estimates hold up on a different dataset.
+In this snowy stadium, both counters missed most of the crowd, but the risk estimate for the transferred MPCount model ranked its prediction as low risk. A low risk score did not mean a small error.
+
+We estimate error risk without retraining the crowd counter, then test how well those estimates hold up on a different dataset.
 
 Keeping the 80% of images ranked most reliable reduced mean absolute error by **19–68%** across seven settings, though calibration did not hold up reliably after dataset shift.
 
