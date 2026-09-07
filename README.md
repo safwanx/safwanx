@@ -13,7 +13,7 @@
 I got into computer vision through crowd counting. Our models struggled with people wearing shemaghs and hijabs, which made me think more about who was missing from the training data. Since then, I've been interested in understanding when models fail and whether we can spot unreliable predictions.
 
 💻 I work as an **ML engineer** and mentor student research at **KAUST Academy**.<br>
-🥏 Outside work: ultimate with Kingdom Ultimate when I'm at KAUST, photography, hiking, and board games.
+🥏 Outside work: frisbee, photography, hiking, and board games.
 
 ## 🔬 Research
 
