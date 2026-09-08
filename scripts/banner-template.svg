@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">Safwan Nabeel, somewhere between experiments and a game of ultimate</title>
+  <title id="title">Safwan Nabeel, machine learning researcher and Formula 1 fan</title>
   <desc id="description">An illustrated night on the coast. A pale frisbee floats above teal water, distant mountains, and a small moon. Safwan Nabeel, machine learning and computer vision.</desc>
   <defs>
     <clipPath id="frame"><rect width="1200" height="360" rx="22"/></clipPath>
@@ -49,6 +49,6 @@
     <text x="64" y="79" font-size="17" fill="#a9cfc6">Hello, I'm</text>
     <text x="60" y="151" font-size="66" font-weight="700" letter-spacing="-2.6" fill="#edf2e6">Safwan Nabeel.</text>
     <text x="64" y="194" font-size="23" fill="#b8d5d0">Machine learning &amp; computer vision</text>
-    <text x="64" y="244" font-size="16" fill="#abc5c4">Usually running an experiment. Sometimes chasing a disc.</text>
+    <text x="64" y="244" font-size="16" fill="#abc5c4">Usually running an experiment. On race weekends, watching F1.</text>
   </g>
 </svg>
