@@ -17,7 +17,7 @@ I work on trustworthy multimodal AI: models that combine images, video, and othe
 
 🔍 **Research interests:** trustworthy and privacy-preserving ML, multimodal and vision-language models, reliability under distribution shift, and reliable AI for healthcare and industry.<br>
 💻 I work as an **ML engineer** and mentor student research at **KAUST Academy**.<br>
-🏎️ Outside work: a huge F1 fan. Also into frisbee, photography, hiking, and board games.
+🏎️ Outside work: F1, frisbee, photography, hiking, and board games.
 
 ## 🔬 Research
 
