@@ -16,7 +16,7 @@
 I work on visual and multimodal machine learning, with a growing focus on robustness, privacy, and reliability under distribution shift. I came to this through computer vision, after watching a model I had trained fail on people who were missing from its training data. Since then my research has looked at how models behave outside clean benchmark settings: multimodal learning and fusion, reliability under dataset shift, and what information survives anonymization.
 
 🔍 **Research interests:** robustness in multimodal systems, privacy and trustworthy visual ML, and reliability under distribution shift. Healthcare and industry are where I want to apply them.<br>
-💻 I work as an **ML engineer** and mentor student research at **KAUST Academy**.<br>
+💻 I work as an **ML engineer**, and mentored student research at **KAUST Academy** in 2026.<br>
 🏎️ Outside work: F1, frisbee, photography, hiking, and board games.
 
 ## 🔬 Research
