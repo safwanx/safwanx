@@ -13,9 +13,9 @@
 
 ## 👋 A little about me
 
-I work on trustworthy multimodal AI: models that combine images, video, and other signals, and what happens to them once they leave the benchmark. I came to this through computer vision, after watching a model I had trained fail on people who were missing from its training data. The questions I keep returning to are when a prediction stops being reliable under distribution shift, what private information survives anonymization, and how far vision-language models can be trusted in healthcare and industrial settings.
+I work on visual and multimodal machine learning, with a growing focus on robustness, privacy, and reliability under distribution shift. I came to this through computer vision, after watching a model I had trained fail on people who were missing from its training data. Since then my research has looked at how models behave outside clean benchmark settings: multimodal fusion for sign language recognition, reliability under dataset shift, and what information survives anonymization.
 
-🔍 **Research interests:** trustworthy and privacy-preserving ML, multimodal and vision-language models, reliability under distribution shift, and reliable AI for healthcare and industry.<br>
+🔍 **Research interests:** robustness in multimodal systems, privacy and trustworthy visual ML, and reliability under distribution shift. Healthcare and industry are where I want to apply them.<br>
 💻 I work as an **ML engineer** and mentor student research at **KAUST Academy**.<br>
 🏎️ Outside work: F1, frisbee, photography, hiking, and board games.
 
