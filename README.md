@@ -21,6 +21,19 @@ I work on visual and multimodal machine learning, with a growing focus on robust
 
 ## 🔬 Research
 
+**Anonymized but Not Anonymous: Multi-Cue Identity Leakage in Privacy-Preserving Action Recognition**<br>
+**Safwan Nabeel**, Farah AlShiha, Muzammil Behzad<br>
+*ACCV 2026 (accepted)*
+
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/privacy-leakage-narrow.png">
+  <img src="assets/privacy-leakage.png" width="100%" alt="Result from the paper on cross-view probes with a 38-identity gallery. Face recognition Rank-1 falls from 83.1% on original video to 3.4% after face blurring, while person re-identification only moves from 85.3% to 84.7%.">
+</picture>
+
+Hiding a face is not the same as hiding a person. On cross-view probes, blurring faces cut face recognition from 83.1% to 3.4%, while person re-identification barely moved, from 85.3% to 84.7%.
+
+NTU120-Privacy-21K is a reproducible protocol of 21,600 videos covering all 120 NTU RGB+D 120 actions. It attacks anonymized video through face, appearance, pose, and silhouette matching, and reports feature coverage alongside attack success.
+
 **TWASEL at SignEval 2026: Adaptive Multi-Stream Pose Fusion for Continuous Sign Language Recognition**<br>
 Sadam Al-Azani, **Safwan Nabeel**, Qasim Al Mahfood, Mohanad Mohamed<br>
 *CVPR Workshops 2026*
@@ -46,11 +59,6 @@ We estimate error risk without retraining the crowd counter, then test how well 
 
 Keeping the 80% of images ranked most reliable reduced mean absolute error by **19–68%** across seven settings, though calibration did not hold up reliably after dataset shift.
 
-<!-- Hidden until the ACCV decision. Restore by removing the comment markers.
-**Privacy and identity leakage in anonymized video**<br>
-*Under review, ACCV 2026*<br>
-A benchmark for residual identity leakage in privacy-preserving action recognition, attacked through face, body appearance, pose, gait, and learned features. Blurring a face is not the same as hiding a person.
--->
 
 ## 🧰 Projects
 

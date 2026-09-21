@@ -20,3 +20,5 @@ The video generator uses Segoe UI from the Windows fonts directory for the capti
 - `profile-coast.svg` and `profile-coast-narrow.svg` (repo root): built by `scripts/build_banner.py` from `scripts/banner-template.svg`. Text is converted to outlines in Atkinson Hyperlegible Next so the banner looks the same on every platform. The narrow variant is taller with larger lettering and is served below 640px viewport width.
 
 Both new scripts take `--fonts DIR` pointing at a folder with the Atkinson Hyperlegible Next TTFs named `bold.ttf`, `medium.ttf`, and `regular.ttf` (Google Fonts). The card script also needs Pillow; the banner script needs fontTools.
+
+- `privacy-leakage.png` and `privacy-leakage-narrow.png`: the headline result of "Anonymized but Not Anonymous" (ACCV 2026), built by `scripts/build_privacy_card.py`. The four values are quoted from the paper's abstract: cross-view C2 probes, coverage-adjusted Rank-1, 38-identity gallery. Face recognition 83.1% to 3.4% after face blur; person re-identification 85.3% to 84.7%. Nothing is synthesized. The narrow card is served below 640px viewport width.
