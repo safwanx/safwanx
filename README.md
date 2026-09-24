@@ -21,9 +21,9 @@ I work on visual and multimodal machine learning, with a growing focus on robust
 
 ## 🔬 Research
 
-**Anonymized but Not Anonymous: Multi-Cue Identity Leakage in Privacy-Preserving Action Recognition**<br>
+**[Anonymized but Not Anonymous: Multi-Cue Identity Leakage in Privacy-Preserving Action Recognition](https://github.com/safwanx/anonymized-not-anonymous)**<br>
 **Safwan Nabeel**, Farah AlShiha, Muzammil Behzad<br>
-*ACCV 2026 (accepted)*
+*Accepted at ACCV 2026 · Osaka, December 14 to 18, 2026*
 
 <picture>
   <source media="(max-width: 640px)" srcset="assets/privacy-leakage-narrow.png">
@@ -33,6 +33,8 @@ I work on visual and multimodal machine learning, with a growing focus on robust
 Hiding a face is not the same as hiding a person. On cross-view probes, blurring faces cut face recognition from 83.1% to 3.4%, while person re-identification barely moved, from 85.3% to 84.7%.
 
 NTU120-Privacy-21K is a reproducible protocol of 21,600 videos covering all 120 NTU RGB+D 120 actions. It attacks anonymized video through face, appearance, pose, and silhouette matching, and reports feature coverage alongside attack success.
+
+[![Code & paper](https://img.shields.io/badge/Code_%26_paper-GitHub-244D60?style=flat-square&logo=github)](https://github.com/safwanx/anonymized-not-anonymous)
 
 **TWASEL at SignEval 2026: Adaptive Multi-Stream Pose Fusion for Continuous Sign Language Recognition**<br>
 Sadam Al-Azani, **Safwan Nabeel**, Qasim Al Mahfood, Mohanad Mohamed<br>
